@@ -1,0 +1,36 @@
+{
+  "private": true,
+  "name": "bug-in-unit-tests-in-backbone-jest",
+  "version": "1.0.0",
+  "license": "ISC",
+  "description": "",
+  "author": "",
+  "scripts": {
+    "build": "webpack",
+    "test": "jest",
+    "dev": "webpack-dev-server",
+    "start": "http-server -c-1 dist/",
+    "deploy": "cross-env NODE_DEBUG=gh-pages gh-pages -d dist/"
+  },
+  "dependencies": {
+    "backbone": "^1.6.0",
+    "jquery": "^3.7.1"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.26.0",
+    "@types/jest": "^29.5.14",
+    "babel-loader": "^9.2.1",
+    "cross-env": "^7.0.3",
+    "gh-pages": "^6.2.0",
+    "html-loader": "^5.1.0",
+    "html-webpack-plugin": "^5.6.3",
+    "http-server": "^14.1.1",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "jsdom": "^25.0.1",
+    "simple-progress-webpack-plugin": "^2.0.0",
+    "webpack": "^5.95.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0"
+  }
+}
