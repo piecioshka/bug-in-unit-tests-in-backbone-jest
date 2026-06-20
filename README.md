@@ -13,3 +13,7 @@ npm run test
 ## Preview 🎉
 
 https://piecioshka.github.io/bug-in-unit-tests-in-backbone-jest/
+
+## License
+
+[The MIT License](http://piecioshka.mit-license.org) @ 2026
